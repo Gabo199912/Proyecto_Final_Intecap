@@ -21,9 +21,9 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .imagen-navbar{
-    height: 3.5rem;
-    width: 3.5rem;
-    border-radius: 5rem;
+    height: 3.7rem;
+    width: 3.7rem;
+    border-radius: 2rem;
 
 
 }
@@ -36,12 +36,15 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 .bi-person-arms-up{
     margin-right: 3px;
+    font-size: .9rem;
 }
 .bi-person-walking{
     margin-right: 3px;
+    font-size: .9rem;
 }
 .fa-dumbbell{
-    margin-right: 2px;
+    margin-right: 3px;
+    font-size: .7rem;
 }
 
 
