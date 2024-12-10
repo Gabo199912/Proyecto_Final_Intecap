@@ -5,10 +5,9 @@
     box-sizing: content-box;
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 200 !important;
     font-style: normal;
-
 }
 
 
@@ -20,13 +19,39 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+
+.menu-nav{
+    padding-top: 3rem !important;
+    text-decoration: none;
+    color: inherit;
+
+    padding-right: 1rem;
+}
+
+
+.menu-nav i{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+
+
+li{
+    list-style: none;
+}
+
 .imagen-navbar{
     height: 3.7rem;
     width: 3.7rem;
-    border-radius: 2rem;
-
-
+    border-radius: 1rem;
 }
+
+.imagen-navbar-chiquito{
+    height: 4.7rem;
+    width: 4.7rem;
+    border-radius: 1rem;
+}
+
 
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
