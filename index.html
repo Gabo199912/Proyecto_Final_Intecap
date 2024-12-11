@@ -37,9 +37,9 @@
                           Servicios
                         </a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#"><i class="bi bi-person-arms-up"></i>Yoga</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="bi bi-person-walking"></i>Caminadoras</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dumbbell"></i>Pesas</a></li>
+                          <li><a class="dropdown-item sin-estilos" href="#"><i class="bi bi-person-arms-up"></i>Yoga</a></li>
+                          <li><a class="dropdown-item sin-estilos" href="#"><i class="bi bi-person-walking"></i>Caminadoras</a></li>
+                          <li><a class="dropdown-item sin-estilos" href="#"><i class="fa-solid fa-dumbbell"></i>Pesas</a></li>
                           
                         </ul>
                       </li>
@@ -66,23 +66,65 @@
 
             <section class="offcanvas offcanvas-start" tabindex="-1" id="navbarSupportedContent" aria-labelledby="offcanvasExampleLabel">
                 
-                <div class="offcanvas-header">
+                <div class="offcanvas-header bg-light">
                     <h5 class="offcanvas-title" id="navbarSupportedContent"><img src="img/img-navbar.png" class="imagen-navbar-chiquito" alt=""></h5>
                     <button type="button" class="btn-close text-reset offcanvas-title" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
                 <div class="offcanvas-body d-flex fs-4">
-                    <ul class="">
-                        <li>Yoga</li>
-                        <li>Caminadoras</li>
-                        <li>Pesas</li>
+                    <ul class="navbar-navs justify-content-evenly">
+                        <a href="#" class="sin-estilos p-2"><li class="sin-estilos fs-4">Inicio</li></a>
+                        <a href="#" class="sin-estilos p-2"><li class="sin-estilos fs-4">Blog</li></a>
+                        <a href="#" class="sin-estilos p-2"><li class="sin-estilos fs-4">Contactos</li></a>
+                        <a href="#" class="sin-estilos p-2"><li class="sin-estilos fs-4">Ejercicios</li></a>
                     </ul>
                 </div>
+
+                <div class="d-lg-none align-self-center p-4">
+                  <a href="#" class="p-3 sin-estilos agrandar"><i class="bi bi-github"></i></a>
+                  <a href="#" class="p-3 sin-estilos agrandar"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="p-3 sin-estilos agrandar"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" class="p-3 sin-estilos agrandar"><i class="bi bi-twitter-x"></i></a>
+                </div>
+
+                
                 
 
             </section>
 
     </nav>
+
+
+    <section class="container-lg">
+
+      <div id="carouselExampleIndicators" class="carousel slide container-md" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img-banner.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
 
 
 
