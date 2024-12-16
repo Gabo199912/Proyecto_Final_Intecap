@@ -10,6 +10,9 @@
     font-style: normal;
 }
 
+body{
+    background-color: #141414;
+}
 
 
 
@@ -53,14 +56,14 @@
 }
 
 .imagen-navbar{
-    height: 4.7rem;
-    width: 4.7rem;
+    height: 3.7rem;
+    width: 3.7rem;
     border-radius: .5rem;
 }
 
 .imagen-navbar-chiquito{
-    height: 4.7rem;
-    width: 4.7rem;
+    height: 3.7rem;
+    width: 3.7rem;
     border-radius: 1rem;
 }
 
@@ -114,12 +117,13 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-.banner{
-    display: flex !important;
-    z-index: 10 !important;
+.carousel-inner{
+    max-height: 36rem !important; 
 }
 
-
+@media (max-width: 991px){
+    
+}
 
 
 
@@ -128,3 +132,26 @@
 /*++++++  FINAL ESTILOS PARA LOS ICONOS DE LA PAGINA  ++++++++*/
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++  ESTILOS PARA EL VIDEOS DE LA PAGINA  +++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media (max-width: 992px){
+    .contenedor-videos{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .video{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
