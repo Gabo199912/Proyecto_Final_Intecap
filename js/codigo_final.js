@@ -1,7 +1,7 @@
- window.sr = ScrollReveal();
  
-
-
+ 
+window.sr = ScrollReveal();
+ 
  sr.reveal('.carousel-inner', {
     duration: 3000,
     origin: 'bottom',
@@ -32,14 +32,11 @@ sr.reveal('.animacion-video1', {
     distance: '-100px'
 });
 
-
-
 sr.reveal('.animacion-video2', {
     duration: 3000,
     origin: 'left',
     distance: '-100px'
 });
-
 
 sr.reveal('.animacion-video3', {
     duration: 3000,
@@ -47,16 +44,11 @@ sr.reveal('.animacion-video3', {
     distance: '-100px'
 });
 
-
-
-
 sr.reveal('.movimiento-formulario', {
     duration: 3000,
     origin: 'right',
     distance: '-100px'
 });
-
-
 
 sr.reveal('.movimiento-img-formulario', {
     duration: 3000,
@@ -64,15 +56,8 @@ sr.reveal('.movimiento-img-formulario', {
     distance: '-100px'
 });
 
-
 sr.reveal('.animacion-footer', {
     duration: 3000,
     origin: 'top',
     distance: '-150px'
 });
-
-
-
-
-
-

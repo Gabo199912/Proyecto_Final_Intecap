@@ -283,3 +283,24 @@ div video{
     scale: 1.05;
     transition: all .5s;
 }
+
+
+
+
+
+
+.video-formulario{
+    max-width: 280px !important;
+}
+
+.formulario-general-inscripcion{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+@media (max-width: 767px){
+    .video-formulario{
+        display: none;
+    }
+}
