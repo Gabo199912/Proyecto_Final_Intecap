@@ -50,4 +50,13 @@ sr.reveal('.animacion-video3', {
 
 
 
+sr.reveal('.movimiento-formulario', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
+
+
 
