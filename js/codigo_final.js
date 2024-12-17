@@ -58,5 +58,21 @@ sr.reveal('.movimiento-formulario', {
 
 
 
+sr.reveal('.movimiento-img-formulario', {
+    duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+
+sr.reveal('.animacion-footer', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-150px'
+});
+
+
+
+
 
 
