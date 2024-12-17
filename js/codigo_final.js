@@ -26,4 +26,28 @@ sr.reveal('.carta-3', {
     distance: '-100px'
 });
 
+sr.reveal('.animacion-video1', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
+
+sr.reveal('.animacion-video2', {
+    duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+
+sr.reveal('.animacion-video3', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
+
+
 
